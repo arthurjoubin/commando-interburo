@@ -8,26 +8,48 @@
     </head>
 
     <body>
-                <!-- Bandeau, avec image renvoyant à la page d'accueil -->
-        <h1> <a href=interburo.html> <img src="logos/interburologo.png" alt="Interburo"></a> <br> Interburo, une équipe d'experts !  </h1>  
-                 <!-- Fin bandeau -->
+        <header>
+           <h1><a href=interburo.html> <img src="logos/interburologo.png" alt="Interburo"></a> <br/> Interburo, une équipe d'experts !  </h1>
+           
+           <!-- Zone de renvoi client vers Alkor en fonction pro/particulier -->
+           <p id="redirection">Vous etes <a href="http://www.burolike.com/">particulier</a> ou <a href="http://www.burolike.com/">entreprise</a> ? </p>
 
-    	<p class="liste"> <ul>
+        </header>
+
+
+    	<nav> <ul class="liste">
             <!-- Test listes pour menus déroulant -->
     			<li>Papeterie</li>
     			<li>Bureautique</li>
-    			<li>Mobilier</li>
+    			<li>Mobilier
     				<ul><li>pro</li>
-    					<li>particulier</li></ul>
+    					<li>particulier</li></ul> </li>
     		</ul>
-    	</p>
 
-             <!-- Zone de renvoi client vers Alkor en fonction pro/particulier -->
-    	<p>Vous etes <a href="https://lequipe.fr">particulier</a> ou <a href="https://basketusa.com#footer">entreprise</a> ?</p>
-    	<h2> Vous voulez en savoir plus sur nous, <a href="alkorstory.html">cliquez ici</a></h2>
+            <ul id="menu-demo2">
+                <li><a href="#">Interburo</a>
+                    <ul>
+                         <li><a href="alkorstory.html">Presentation</a></li>
+                         <li><a href="#">Où nous trouver ?</a></li>
+                         <li><a href="#">Nos Services</a></li>
+                         <li><a href="#">Contactez nous</a></li>
+                     </ul>
+                </li>
+                <li><a href="#">Groupe Alkor</a>
+                     <ul>
+                        <li><a href="alkorstory.html">Présentation</a></li>
+                        <li><a href="#">Catalogues</a></li>
+                        <li><a href="#">Les Produits</a></li>
+                   </ul>
+                </li>
+            </ul>
+    	</nav>
 
+        <section> 
+    	       <h2 class="savoirplus"> Vous voulez en savoir plus sur nous, <a href="alkorstory.html">cliquez ici</a></h2>
+        </section>    
         <footer>
-     <!-- Encadré de contact, en position fixe en bas à gauche de l'écran -->
+     <!-- Encadré de contact, en position fixe en bas à droite de l'écran -->
             <p>TOUTE PERSONNE QUI LIT CETTE PAGE, ET VEUT ME CONTACTER, <a href="mailto:arthurjoubin@gmail.com">CLIQUEZ ICI</a></p>
 
         </footer>

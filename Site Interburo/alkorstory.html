@@ -9,14 +9,18 @@
 
     <body>
         <header>
-    	   <h1> <a href=interburo.html> <img src="logos/interburologo.png" alt="Interburo"></a> <br/> Interburo, une équipe d'experts !  </h1>  
+           <h1><a href=interburo.html> <img src="logos/interburologo.png" alt="Interburo"></a> <br/> Interburo, une équipe d'experts !  </h1>
+           
+           <!-- Zone de renvoi client vers Alkor en fonction pro/particulier -->
+           <p id="redirection">Vous etes <a href="http://www.burolike.com/">particulier</a> ou <a href="http://www.burolike.com/">entreprise</a> ? </p>
+
         </header>
 
      <!-- Bloc présentant Alkor -->
-    	<SECTION>
+    	<section class="alkor">
             <h3 id="alkortitre"> Découvrez notre fournisseur <br/> </h3> 
-            <p class="alkor"> 
-                <span>
+            <p> 
+                <span id="alkorcontenu">
                 <!-- photo renvoyany vers le site Alkor -->
                  <a href="http://www.alkor-groupe.fr/le-groupe-alkor/" title="allez jeter un oeil !" target="_blank"> <img class="photoalkor" width="500" height="140" src="logos/alkorlogo.png" alt="alkor-groupe"> </a> <br>
                 <!-- Vidéo youtube intégré, présentation Alkor -->
@@ -24,7 +28,7 @@
                 </span></p>
 
             <p> <ul class="alkorpoints"> <li>Plus de 40 ans d'expériences</li> <li>Des stocks pleins à craquer dans nos 40.000 m^2!</li> <li>Des assistants là pour vous aider 24h/24</li> </p>
-        </SECTION>
+        </section>
         
         <footer>
      <!-- Encadré de contact, en position fixe en bas à gauche de l'écran -->

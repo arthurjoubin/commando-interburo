@@ -2,10 +2,13 @@ body {
 	background-image: url("logos/backecole.jpg");
     background-repeat: no-repeat;
     background-position: top right; 
-    background-size: 50%;
+    background-size: 60%;
 }
 
 
+header {
+	width: 1300px;
+}
 
 * {
 	font-family: courrier new;
@@ -39,26 +42,71 @@ li
 	font-family: : arial;
 }
 
-.videoalkor {
-	margin: 50px 25px 0 710px;
+.alkor {
+	width:1300px;
+	border: 2px solid black;
+	overflow: auto;
+	text-align: center;
+
 }
 
+.videoalkor {
+object-position: 50% 50%;
+}
 .photoalkor {
-	margin:0 0 0 700px;
+object-position: center;
+}
+
+#alkorcontenu {
+	text-align: center;
+	background-position: center center;
 }
 
 #alkortitre {
 	font-weight: bold;
 	font-size: 2em;
 	text-align: center;
-	margin-top: 150px;
+	margin-top: 50px;
+}
+#redirection {
+	position:fixed;
+	top:10px;
+	left:25px;
 }
 
-ul.alkorpoints li{
-	display: inline;
-	margin-right: 200px;
-	list-style-type: square;
+.savoirplus {
+	position: bottom center;
+	width: 500px;
+	margin : 250px 350px 250px 350px ;
 }
+
+ul.alkorpoints{
+	display: flex;
+	justify-content: space-between;
+	list-style-type: none;
+}
+
+ul.liste {
+	display: flex;
+	justify-content: space-between;
+	list-style-type: none;
+	width: 1100px;
+}
+
+ul.liste ul{
+	display: none;
+}
+
+ul.liste ul:hover{
+	display: flex;
+	flex-direction: column;	
+	list-style-type: none;
+}
+
+
+
+
+
 footer{
 position: fixed;
 bottom:0;
@@ -80,4 +128,59 @@ a {
 a:hover {
 	color: black;
 	text-decoration: underline;
+}
+
+
+
+/* code Erwan menus */
+
+#menu-demo2, #menu-demo2 ul{
+padding:0;
+margin:0;
+list-style:none;
+text-align:center;
+border: ;
+border: 3px solid grey;
+
+}
+#menu-demo2 li{
+display:inline-block;
+position:relative;
+border-radius:9px 9px 0 0;
+}
+#menu-demo2 ul li{
+display:inherit;
+border-radius:0;
+}
+#menu-demo2 ul li:hover{
+border-radius:0;
+}
+#menu-demo2 ul li:last-child{
+border-radius:0 0 8px 8px;
+}
+#menu-demo2 ul{
+position:absolute;
+z-index: 1000;
+max-height:0;
+left: 0;
+right: 0;
+overflow:hidden;
+}
+#menu-demo2 li:hover ul{
+max-height:15em;
+}
+/* les a href */
+#menu-demo2 a{
+text-decoration:none;
+display:block;
+padding:8px 40px;
+color:red;
+font-family:arial;
+}
+#menu-demo2 ul a{
+padding:8px 0;
+}
+#menu-demo2 li:hover li a{
+color:black;
+text-transform:inherit;
 }
