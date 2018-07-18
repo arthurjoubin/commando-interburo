@@ -1,10 +1,27 @@
+* {
+	font-family: courrier new;
+	font-style: normal;
+	font-weight: normal;
+}
+
 h1
 {
     color: red;
     text-align: center;
 }
+
 h2 {
 	text-align: center;
+}
+
+
+
+h4 {
+	text-align: right;
+}
+
+p {
+	text-align: justify;
 }
 
 li
@@ -13,12 +30,13 @@ li
 	font-family: : arial;
 }
 
-* {
-	font-family: courrier new;
-	font-style: normal;
-	font-weight: normal;
+.alkor {
+	float: left;
+}
+#alkortitre {
+	font-weight: bold;
+	font-size: 2em;
 }
 
-h4 {
-	text-align: right;
-}
+
+
