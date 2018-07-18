@@ -1,4 +1,24 @@
-p
+h1
 {
-    color: blue;
+    color: red;
+    text-align: center;
+}
+h2 {
+	text-align: center;
+}
+
+li
+{
+	font-size: 1.3em;
+	font-family: : arial;
+}
+
+* {
+	font-family: courrier new;
+	font-style: normal;
+	font-weight: normal;
+}
+
+h4 {
+	text-align: right;
 }
