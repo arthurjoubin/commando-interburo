@@ -2,7 +2,7 @@ body {
 	background-image: url("logos/backecole.jpg");
     background-repeat: no-repeat;
     background-position: top right; 
-    background-size: 70%;
+    background-size: 50%;
 }
 
 
@@ -40,21 +40,25 @@ li
 }
 
 .videoalkor {
-	float: left;
-	margin: 50px 25px 0 10px;
+	margin: 50px 25px 0 710px;
 }
 
 .photoalkor {
-	margin:0 0 0 300px;
+	margin:0 0 0 700px;
 }
 
 #alkortitre {
 	font-weight: bold;
 	font-size: 2em;
-	margin-left : 370px;
+	text-align: center;
 	margin-top: 150px;
 }
 
+ul.alkorpoints li{
+	display: inline;
+	margin-right: 200px;
+	list-style-type: square;
+}
 footer{
 position: fixed;
 bottom:0;
