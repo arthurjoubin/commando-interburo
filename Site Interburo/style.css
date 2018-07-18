@@ -1,3 +1,12 @@
+body {
+	background-image: url("logos/backecole.jpg");
+    background-repeat: no-repeat;
+    background-position: top right; 
+    background-size: 70%;
+}
+
+
+
 * {
 	font-family: courrier new;
 	font-style: normal;
@@ -30,13 +39,41 @@ li
 	font-family: : arial;
 }
 
-.alkor {
+.videoalkor {
 	float: left;
+	margin: 50px 25px 0 10px;
 }
+
+.photoalkor {
+	margin:0 0 0 300px;
+}
+
 #alkortitre {
 	font-weight: bold;
 	font-size: 2em;
+	margin-left : 370px;
+	margin-top: 150px;
 }
 
+footer{
+position: fixed;
+bottom:0;
+right: 0;
+background-color: white;
+border: 2px solid grey;
+border-radius: 10px;
+font-size: 80%;
 
+    box-shadow: 0 6px 6px 6px grey;
+}
 
+a {
+	color: black;
+	font-weight: bolder;
+	text-decoration: none;
+}
+
+a:hover {
+	color: black;
+	text-decoration: underline;
+}
